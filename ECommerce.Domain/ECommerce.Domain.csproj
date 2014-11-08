@@ -41,7 +41,6 @@
   <ItemGroup>
     <Compile Include="Entities\address.cs" />
     <Compile Include="Entities\category.cs" />
-    <Compile Include="Entities\Class1.cs" />
     <Compile Include="Entities\commision.cs" />
     <Compile Include="Entities\creditcard.cs" />
     <Compile Include="Entities\gouvernorat.cs" />
