@@ -59,6 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Infrasctructure\DatabaseFactory.cs" />
+    <Compile Include="Infrasctructure\Disposable.cs" />
+    <Compile Include="Infrasctructure\IDatabaseFactory.cs" />
+    <Compile Include="Infrasctructure\IRepository.cs" />
+    <Compile Include="Infrasctructure\IUnitOfWork.cs" />
+    <Compile Include="Infrasctructure\RepositoryBase.cs" />
+    <Compile Include="Infrasctructure\UnitOfWork.cs" />
     <Compile Include="Migrations\201411072340148_InitialSchema.cs" />
     <Compile Include="Migrations\201411072340148_InitialSchema.Designer.cs">
       <DependentUpon>201411072340148_InitialSchema.cs</DependentUpon>
@@ -83,6 +90,23 @@
     <Compile Include="Models\Mapping\shoppingcartMap.cs" />
     <Compile Include="Models\Mapping\userMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AddressRepository.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\CommisionRepository.cs" />
+    <Compile Include="Repositories\CreditCardRepository.cs" />
+    <Compile Include="Repositories\GouvernoratRepository.cs" />
+    <Compile Include="Repositories\OrderItemRepository.cs" />
+    <Compile Include="Repositories\OrderRepository.cs" />
+    <Compile Include="Repositories\PictureRepository.cs" />
+    <Compile Include="Repositories\ProductItemRepository.cs" />
+    <Compile Include="Repositories\ProductItemSupplierRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\PromotionRepository.cs" />
+    <Compile Include="Repositories\ReclamationRepository.cs" />
+    <Compile Include="Repositories\RecommendationRepository.cs" />
+    <Compile Include="Repositories\ReviewRepository.cs" />
+    <Compile Include="Repositories\ShoppingCartRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

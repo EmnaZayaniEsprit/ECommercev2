@@ -39,25 +39,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="address.cs" />
-    <Compile Include="category.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="commision.cs" />
-    <Compile Include="creditcard.cs" />
-    <Compile Include="gouvernorat.cs" />
-    <Compile Include="order.cs" />
-    <Compile Include="orderitem.cs" />
-    <Compile Include="picture.cs" />
-    <Compile Include="product.cs" />
-    <Compile Include="productitem.cs" />
-    <Compile Include="productitemsupplier.cs" />
-    <Compile Include="promotion.cs" />
+    <Compile Include="Entities\address.cs" />
+    <Compile Include="Entities\category.cs" />
+    <Compile Include="Entities\Class1.cs" />
+    <Compile Include="Entities\commision.cs" />
+    <Compile Include="Entities\creditcard.cs" />
+    <Compile Include="Entities\gouvernorat.cs" />
+    <Compile Include="Entities\order.cs" />
+    <Compile Include="Entities\orderitem.cs" />
+    <Compile Include="Entities\picture.cs" />
+    <Compile Include="Entities\product.cs" />
+    <Compile Include="Entities\productitem.cs" />
+    <Compile Include="Entities\productitemsupplier.cs" />
+    <Compile Include="Entities\promotion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="reclamation.cs" />
-    <Compile Include="recommendation.cs" />
-    <Compile Include="review.cs" />
-    <Compile Include="shoppingcart.cs" />
-    <Compile Include="user.cs" />
+    <Compile Include="Entities\reclamation.cs" />
+    <Compile Include="Entities\recommendation.cs" />
+    <Compile Include="Entities\review.cs" />
+    <Compile Include="Entities\shoppingcart.cs" />
+    <Compile Include="Entities\user.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
