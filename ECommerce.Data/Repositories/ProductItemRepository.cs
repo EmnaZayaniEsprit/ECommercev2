@@ -1,13 +1,12 @@
-﻿using ECmmerce.Data.Infrasctructure;
-
-using ECmmerce.Data.Models;
+﻿using ECommerce.Data.Infrastructure;
+using ECommerce.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECmmerce.Data.Infrastructure
+namespace ECommerce.Data.Infrastructure
 {
    public class ProductItemRepository : RepositoryBase<productitem>,IProductItemRepository
     {

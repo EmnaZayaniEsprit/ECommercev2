@@ -1,4 +1,4 @@
-﻿using ECmmerce.Data.Models;
+﻿using ECommerce.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -7,19 +7,19 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECmmerce.Data.Infrasctructure
+namespace ECommerce.Data.Infrastructure
 {
     public abstract class RepositoryBase<T> : IRepository<T> where T : class
-    { 
-        private ecommerceContext dataContext; 
+    {
+        private ECommerceContext dataContext; 
         private IDbSet<T> dbset;
         IDatabaseFactory databaseFactory;
         protected RepositoryBase(IDatabaseFactory dbFactory)
         {
             this.databaseFactory = dbFactory;
             dbset = DataContext.Set<T>();
-        } 
-        protected ecommerceContext DataContext 
+        }
+        protected ECommerceContext DataContext 
         {
             get { return dataContext = databaseFactory.DataContext; 
             } 

@@ -1,4 +1,4 @@
-﻿using ECmmerce.Data.Models;
+﻿using ECommerce.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 
 //***************************************************************** SALMA **************
-namespace ECmmerce.Data.Infrasctructure
+namespace ECommerce.Data.Infrastructure
 {
     public class DatabaseFactory : Disposable, IDatabaseFactory
     { 
-        private ecommerceContext dataContext;
-        public ecommerceContext DataContext 
+        private ECommerceContext dataContext;
+        public ECommerceContext DataContext 
         { 
             get { return dataContext; }
         } 
         public DatabaseFactory() 
         {
-            dataContext = new ecommerceContext();
+            dataContext = new ECommerceContext();
         } 
         
         protected override void DisposeCore() 

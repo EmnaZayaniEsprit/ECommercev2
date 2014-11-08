@@ -1,11 +1,11 @@
-﻿using ECmmerce.Data.Infrastructure;
+﻿using ECommerce.Data.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECmmerce.Data.Infrasctructure
+namespace ECommerce.Data.Infrastructure
 {
     public interface IUnitOfWork : IDisposable
     { 

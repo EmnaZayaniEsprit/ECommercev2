@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECmmerce.Data.Infrasctructure
+namespace ECommerce.Data.Infrastructure
 {
     public class Disposable : IDisposable
     { 

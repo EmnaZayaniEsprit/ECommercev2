@@ -1,16 +1,16 @@
-﻿using ECmmerce.Data.Infrastructure;
-using ECmmerce.Data.Models;
+﻿using ECommerce.Data.Infrastructure;
+using ECommerce.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECmmerce.Data.Infrasctructure
+namespace ECommerce.Data.Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private ecommerceContext dataContext;
+        private ECommerceContext dataContext;
         IDatabaseFactory dbFactory;
         public UnitOfWork(IDatabaseFactory dbFactory)
         {
@@ -157,7 +157,7 @@ namespace ECmmerce.Data.Infrasctructure
         }
 
 
-        protected ecommerceContext DataContext
+        protected ECommerceContext DataContext
         {
             get
             {

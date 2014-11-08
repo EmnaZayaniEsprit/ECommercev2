@@ -59,13 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Infrasctructure\DatabaseFactory.cs" />
-    <Compile Include="Infrasctructure\Disposable.cs" />
-    <Compile Include="Infrasctructure\IDatabaseFactory.cs" />
-    <Compile Include="Infrasctructure\IRepository.cs" />
-    <Compile Include="Infrasctructure\IUnitOfWork.cs" />
-    <Compile Include="Infrasctructure\RepositoryBase.cs" />
-    <Compile Include="Infrasctructure\UnitOfWork.cs" />
+    <Compile Include="Infrastructure\DatabaseFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
+    <Compile Include="Infrastructure\IDatabaseFactory.cs" />
+    <Compile Include="Infrastructure\IRepository.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\RepositoryBase.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Migrations\201411072340148_InitialSchema.cs" />
     <Compile Include="Migrations\201411072340148_InitialSchema.Designer.cs">
       <DependentUpon>201411072340148_InitialSchema.cs</DependentUpon>
